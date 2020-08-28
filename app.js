@@ -7,8 +7,9 @@ $(document).ready(tomarNumero);{
 
         $.getJSON(pokeapiUrl).done(function(data){
             console.log(data);
+            $('#img').attr('src', data.sprites.front_default);
+            $('#info').text(data.species.name);
         });
-        
     }
     
 }
