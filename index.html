@@ -27,14 +27,16 @@
             </div>
         </div>
         <div class="d-flex align-items-center poke-card m-3">
-            <div class="poke-card-content text-center m-3">
-                <img id=img alt="" src="">
-                <h3 id=info class="text-primary"></h3>
+            <div class="poke-card-content text-center m-3 col-md-3">
+                <h3 id=info-name class="text-primary"></h3>
+                <img id=img alt="" src="">                
+            </div>
+            <div class="col-md-9">
+                <div id="chartContainer" style="height: 300px; width: 100%;"></div>
             </div>
         </div>
+        
     </div>
-
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -44,6 +46,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script src="app.js"></script>
 </body>
 
